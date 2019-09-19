@@ -1,0 +1,48 @@
+{
+    "status": true,
+    "data": {
+        "id": "1",
+        "userName": "admin",
+        "pwd": "D3DB76A0D9A9FB06",
+        "realName": "管理员",
+        "sex": "1",
+        "deaprId": null,
+        "deaprName": null,
+        "roleId": "1",
+        "roleName": "管理员",
+        "lx_tel": "13911906781",
+        "userStatus": "1",
+        "createTime": "2019--04-12  15:28",
+        "rolemenulist": [
+            {
+                "menuid": "3",
+                "menuname": "任务大厅",
+                "up_id": null,
+                "up_name": null,
+                "img": null,
+                "href": "label/hall/poolList",
+                "href_way": 1
+            },
+            {
+                "menuid": "1",
+                "menuname": "任务管理",
+                "up_id": null,
+                "up_name": null,
+                "img": null,
+                "href": "label/hall/poolList",
+                "href_way": 1
+            },
+            {
+                "menuid": "2",
+                "menuname": "任务分配",
+                "up_id": null,
+                "up_name": null,
+                "img": null,
+                "href": "label/hall/poolList",
+                "href_way": 1
+            }
+        ]
+    },
+    "errCode": "",
+    "errMsg": ""
+}

@@ -1,0 +1,40 @@
+<svg id="框" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="728" height="502" viewBox="0 0 728 502">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #37578c;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #37578c;
+        opacity: 0.1;
+      }
+
+      .cls-3 {
+        stroke: #0075ff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="13" y="13" width="702" height="476" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="3.333" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#38588e" flood-opacity="0.85"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: none; filter: url(#filter)">
+    <rect id="圆角矩形_3" data-name="圆角矩形 3" class="cls-1" x="13" y="13" width="702" height="476" rx="5" ry="5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#圆角矩形_3" style="stroke: #37578c; filter: none; fill: none"/>
+  <rect id="圆角矩形_3_拷贝" data-name="圆角矩形 3 拷贝" class="cls-2" x="13" y="13" width="702" height="476" rx="5" ry="5"/>
+  <path id="圆角矩形_3_拷贝_2" data-name="圆角矩形 3 拷贝 2" class="cls-3" d="M596,382.734V360a5,5,0,0,1,5-5h23.036m670.054,0H1317a5,5,0,0,1,5,5v23.416m0,443.765V850a5,5,0,0,1-5,5h-22.72M624.4,855H601a5,5,0,0,1-5-5V827.249" transform="translate(-595 -354)"/>
+</svg>

@@ -1,0 +1,30 @@
+{
+    "status": true,
+    "data": {
+        "currentPage": 1,
+        "pageSize": 10,
+        "totalNum": null,
+        "isMore": null,
+        "totalPage": null,
+        "startIndex": null,
+        "l": null,
+        "keyword": null,
+        "begin_date": null,
+        "end_date": null,
+        "id": null,
+        "textId": "1",
+        "indexStart": null,
+        "indexEnd": null,
+        "textContent": "资费数据导致无法共享语音10",
+        "labelTime": null,
+        "labelUserId": null,
+        "labelUserName": null,
+        "categoryId": "1,",
+        "categoryName": "ewq,",
+        "textOldId": "1",
+        "textOther": null,
+        "textLabelContent": "qwe"
+    },
+    "errCode": "",
+    "errMsg": ""
+}

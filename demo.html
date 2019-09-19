@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body onmouseup="test(event)">
+  <div id="warp">
+    <span>abcdefgabcdefgabcdefgabcdefg</span>
+
+  </div>
+  <button onclick="rest()">rest</button>
+</body>
+<script type="text/javascript">
+  function rest() {
+    // var texts = $('#warp>span').text()
+    var texts = document.getElementById('warp').getElementsByTagName('span')[0].innerText
+    ///如果要用 firstChild 切记div和span中间没有换行和空格
+    // $('#warp>span').html(texts)
+    document.getElementById('warp').getElementsByTagName('span')[0].innerHTML = texts
+  }
+  var size = 80 + 'px'  //字体大小在这里
+
+  function test(event) {
+    event.target.style.fontSize
+    // if ($(event.target).css('font-size') == size) {
+    //   return;
+    // }
+    // var warp = $('<span></span>')
+    var warp = document.createElement('span')
+    // var divs = $('<span></span>')
+    var divs = document.createElement("span")
+    // $(divs).css('font-size', size)   //样式增加在这里
+    divs.style.fontSize = size;
+    if (window.getSelection() != "") {
+      // $(divs).text(window.getSelection())
+      divs.innerText = window.getSelection()
+      var the = event.target
+      // $(warp).append(divs)
+      warp.appendChild(divs)
+      var begin = window.getSelection().anchorOffset
+      var endin = window.getSelection().focusOffset
+      if (endin < begin) begin = endin
+      // var count = $(divs).text().length
+      var count = divs.innerText.length
+      var ftest = new RegExp("^(\\w{" + begin + "})\\w{" + count + "}")
+      console.log(ftest)
+      var texts = event.target.innerHTML.replace(ftest, '<span>' + '$1' + '</span>' + warp.innerHTML + '<span>') //warp.innerHTML    $(warp).html()
+      // $(the).html(texts)
+      the.innerHTML = texts
+    }
+  }
+</script>
+
+</body>
+
+</html>
