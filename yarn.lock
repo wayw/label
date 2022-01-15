@@ -8076,10 +8076,10 @@ shebang-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-shelljs@^0.7.6:
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.7.8.tgz#decbcf874b0d1e5fb72e14b164a9683048e9acb3"
-  integrity sha1-3svPh0sNHl+3LhSxZKloMEjprLM=
+shelljs@^0.8.5:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.5.tgz#de055408d8361bed66c669d2f000538ced8ee20c"
+  integrity sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"
@@ -9119,6 +9119,11 @@ vue-loader@^13.3.0:
     vue-hot-reload-api "^2.2.0"
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
+
+vue-plugin-upload@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/vue-plugin-upload/-/vue-plugin-upload-1.0.8.tgz#6c49f695d5bdc24c2b12da9b2bc5903d3824cabf"
+  integrity sha512-jfLpELHy6vIEEZvuOi22tdTUx8JBTLcPePtl7uDTM2kiRFglvB0wUWLFPJHrv/g3rZPgBL1ubgf/0uTzokeSqA==
 
 vue-router@^3.0.1:
   version "3.1.3"
