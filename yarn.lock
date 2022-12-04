@@ -2607,9 +2607,9 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.0"
@@ -9119,6 +9119,11 @@ vue-loader@^13.3.0:
     vue-hot-reload-api "^2.2.0"
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
+
+vue-plugin-upload@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/vue-plugin-upload/-/vue-plugin-upload-1.0.8.tgz#6c49f695d5bdc24c2b12da9b2bc5903d3824cabf"
+  integrity sha512-jfLpELHy6vIEEZvuOi22tdTUx8JBTLcPePtl7uDTM2kiRFglvB0wUWLFPJHrv/g3rZPgBL1ubgf/0uTzokeSqA==
 
 vue-router@^3.0.1:
   version "3.1.3"
